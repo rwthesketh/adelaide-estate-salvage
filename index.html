@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adelaide Estate Salvage</title>
+        <style>
+            :root {
+                --max-width-body: 100%;
+            }
+
+
+
+            /* Extra small devices (phones, 600px and down) */
+            @media only screen and (max-width: 600px) {...}
+
+            /* Small devices (portrait tablets and large phones, 600px and up) */
+            @media only screen and (min-width: 600px) {...}
+
+            /* Medium devices (landscape tablets, 768px and up) */
+            @media only screen and (min-width: 768px) {...}
+
+            /* Large devices (laptops/desktops, 992px and up) */
+            @media only screen and (min-width: 992px) {...}
+
+            /* Extra large devices (large laptops and desktops, 1200px and up) */
+            @media only screen and (min-width: 1200px) {...}
+
+            @media only screen and (min-width: 1200px) {
+              body {
+                --max-width-body: 1200px;
+                margin: 0 auto;
+              }
+            }
+
+            @media print {
+              /* Styles for printing */
+              body {
+                font-size: 12pt;
+                font-family: serif;
+              }
+
+              nav,
+              footer,
+              .sidebar {
+                display: none;
+              }
+
+              .content {
+                width: 100%;
+              }
+
+              a[href]:after {
+                content: " (" attr(href) ")";
+              }
+            }
+        </style>
+    </head>
+    <body style="max-width: var(--max-width-body)">
+        <div class="layout">
+            <div><h1>Adelaide Estate Salvage</h1></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>
